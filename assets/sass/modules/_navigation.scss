@@ -124,7 +124,7 @@ a {
 
 	// clear: both;
 	// display: none;
-	// float: left;	
+	// float: left;
 
 	// Menu area
 	ul {
@@ -164,6 +164,7 @@ a {
 		color: $color-white;
 		font-size: rem(14);
 		padding: rem(5);
+		text-decoration: none;
 
 		&:focus {
 			outline: rem(2) solid $color-white;
