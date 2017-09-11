@@ -4,16 +4,16 @@
 
 // Links
 a {
-	color: $color-link;
+	color: $color-black;
 
-	&:visited {
-		color: $color-link-visited;
-	} // &:visited
-
-	&:hover,
+	&:visited,
 	&:focus,
 	&:active {
-		color: $color-link-hover;
+		color: $color-black;
+	} // &:visited
+
+	&:hover, {
+		// color: $color-link-hover;
 	} // &:hover, &:focus, &:active
 } // a
 
@@ -22,7 +22,7 @@ a {
 	@include list-reset;
 
 	li {
-		margin: 0 rem(10) 0 0;
+		margin: 0 rem(20) 0 0;
 	} // li
 
 	ul {
@@ -120,11 +120,11 @@ a {
 
 // Main navigation (after creating a menu in the dashboard)
 .main-navigation {
-	@include size(100% auto);
+	// @include size(100% auto);
 
-	clear: both;
-	display: none;
-	float: left;
+	// clear: both;
+	// display: none;
+	// float: left;
 
 	// Menu area
 	ul {
@@ -164,6 +164,7 @@ a {
 		color: $color-white;
 		font-size: rem(14);
 		padding: rem(5);
+		text-decoration: none;
 
 		&:focus {
 			outline: rem(2) solid $color-white;

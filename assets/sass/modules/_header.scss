@@ -17,17 +17,18 @@
 .top-header {
 	background: transparent;
 	position: fixed;
+	left: 0;
 	width: 100%;
 	z-index: 1000;
 	transition: background-color 0.5s ease-in-out;
 
 	.wrap {
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
 
 		&:after {
-			display: none;
+			// display: none;
 		}
 	}
 
