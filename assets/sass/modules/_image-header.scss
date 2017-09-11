@@ -1,0 +1,22 @@
+.image-header {
+  height: 80vh;
+  color: $color-white;
+
+  .wrap {
+
+
+    .image-header {
+
+      &__wrapper {
+
+      }
+
+      &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+    }
+  }
+}
