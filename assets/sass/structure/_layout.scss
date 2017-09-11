@@ -2,6 +2,14 @@
 // Base Layout
 //--------------------------------------------------------------
 
+.site {
+	overflow-x: hidden;
+
+	h2{
+		line-height: 1em;
+	}
+}
+
 // Structure.
 .wrap {
 	@include grid-container;
