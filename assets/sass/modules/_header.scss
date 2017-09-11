@@ -4,7 +4,7 @@
 
 // Site Title
 .site-title {
-	font-size: em(48);
+	font-size: em(28);
 } // .site-title
 
 // Site Description
@@ -12,3 +12,27 @@
 	font-size: em(24);
 	margin: 0 0 rem(24) 0;
 } // .site-description
+
+// Site Header
+.top-header {
+	background: transparent;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	transition: background-color 0.5s ease-in-out;
+
+	.wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&:after {
+			display: none;
+		}
+	}
+
+	&.filled {
+		background: $color-black;
+		//transition: background-color 0.5s ease-in-out;
+	}
+} // .top-header
